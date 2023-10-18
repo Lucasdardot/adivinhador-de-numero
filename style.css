@@ -137,6 +137,10 @@ body {
         justify-content: center;
     }
 
+    #botao:hover{
+        border:none;
+    }
+
     #button {
         margin-top: 60px;
     }
