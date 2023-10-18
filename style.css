@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(65, 59, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#principal {
+    width: 1000px;
+    height: 1200px;
+    border: 5px solid white;
+    border-radius: 40px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+
+#principal h1 {
+    color: white;
+    font-size: 70px;
+    font-family: 'Gabarito', sans-serif;
+}
+
+#tutorial {
+    margin-top: 60px;
+}
+
+#tutorial h3 {
+    color: white;
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.inp {
+
+
+    height: 70px;
+    width: 500px;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.inp::placeholder {
+    font-family: 'Gabarito', sans-serif;
+    color: rgb(65, 59, 59);
+    font-weight: 100;
+
+}
+
+
+#button {
+    margin-top: 230px;
+}
+
+
+#botao {
+    height: 100px;
+    width: 300px;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 30px;
+    color: rgb(65, 59, 59);
+    font-weight: 100;
+
+
+    border-radius: 30px;
+}
+
+#botao:hover {
+    cursor: pointer;
+    border: 15px solid white;
+}
+
+
+#resultado {
+    margin-top: 170px;
+}
+
+#p {
+    color: lightgreen;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 40px;
+
+
+}
+
+
+
+
+
+@media screen and (max-width:500px) {
+
+    #principal {
+        height: 700px;
+        width: 300px;
+    }
+
+    #principal h1 {
+        font-size: 40px;
+    }
+
+    #tutorial h3 {
+        font-size: 20px;
+    }
+
+    .inp {
+        width: 200px;
+        height: 50px;
+        margin-top: 0px;
+    }
+
+    #inp {
+        height: 60px;
+        margin-top: 50px;
+    }
+
+    .inp::placeholder {
+        font-size: 19px;
+    }
+
+    #botao {
+        height: 50px;
+        width: 200px;
+        font-size: 23px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #button {
+        margin-top: 60px;
+    }
+
+    #p {
+        font-size: 20px;
+    }
+
+    #resultado {
+        margin-top: 100px;
+    }
+
+
+}
